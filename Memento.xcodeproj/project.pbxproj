@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A49776026856EAE001477DF /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A49775F26856EAE001477DF /* AgendaView.swift */; };
+		2A49776326860475001477DF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2A49776226860475001477DF /* FirebaseAuth */; };
+		2A49776526860714001477DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A49776426860714001477DF /* GoogleService-Info.plist */; };
+		2A90C782268BA2AF00B0AC2A /* AgendaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90C781268BA2AF00B0AC2A /* AgendaRow.swift */; };
 		2A9A4263267CDAF800B98232 /* MementoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4262267CDAF800B98232 /* MementoApp.swift */; };
-		2A9A4265267CDAF800B98232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4264267CDAF800B98232 /* ContentView.swift */; };
 		2A9A4267267CDAFB00B98232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A4266267CDAFB00B98232 /* Assets.xcassets */; };
 		2A9A426A267CDAFB00B98232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A4269267CDAFB00B98232 /* Preview Assets.xcassets */; };
-		2A9A4275267CDAFC00B98232 /* MementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4274267CDAFC00B98232 /* MementoTests.swift */; };
-		2A9A4280267CDAFC00B98232 /* MementoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A427F267CDAFC00B98232 /* MementoUITests.swift */; };
+		2A9A4290267D38F500B98232 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A428F267D38F500B98232 /* RootView.swift */; };
+		2A9A4292267D395F00B98232 /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4291267D395F00B98232 /* AddNewItemView.swift */; };
+		2A9A4294267D397F00B98232 /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4293267D397F00B98232 /* AboutAppView.swift */; };
+		2A9A4298267FA64500B98232 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4297267FA64500B98232 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A9A425F267CDAF800B98232 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49775D2684CBB9001477DF /* MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49775E2684CBB9001477DF /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A49775F26856EAE001477DF /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		2A49776426860714001477DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A90C781268BA2AF00B0AC2A /* AgendaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaRow.swift; sourceTree = "<group>"; };
 		2A9A4262267CDAF800B98232 /* MementoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoApp.swift; sourceTree = "<group>"; };
-		2A9A4264267CDAF800B98232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A9A4266267CDAFB00B98232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9A4269267CDAFB00B98232 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A9A426B267CDAFB00B98232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A9A4270267CDAFC00B98232 /* MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9A4274267CDAFC00B98232 /* MementoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoTests.swift; sourceTree = "<group>"; };
-		2A9A4276267CDAFC00B98232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A9A427B267CDAFC00B98232 /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A9A427F267CDAFC00B98232 /* MementoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoUITests.swift; sourceTree = "<group>"; };
-		2A9A4281267CDAFC00B98232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9A428F267D38F500B98232 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2A9A4291267D395F00B98232 /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
+		2A9A4293267D397F00B98232 /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
+		2A9A4297267FA64500B98232 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2A9A429A267FACC800B98232 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9A429B267FACE900B98232 /* Memento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memento.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A49776326860475001477DF /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,30 +85,28 @@
 			isa = PBXGroup;
 			children = (
 				2A9A4261267CDAF800B98232 /* Memento */,
-				2A9A4273267CDAFC00B98232 /* MementoTests */,
-				2A9A427E267CDAFC00B98232 /* MementoUITests */,
-				2A9A4260267CDAF800B98232 /* Products */,
+				2A9A429A267FACC800B98232 /* Memento.app */,
+				2A49775D2684CBB9001477DF /* MementoTests.xctest */,
+				2A49775E2684CBB9001477DF /* MementoUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		2A9A4260267CDAF800B98232 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2A9A425F267CDAF800B98232 /* Memento.app */,
-				2A9A4270267CDAFC00B98232 /* MementoTests.xctest */,
-				2A9A427B267CDAFC00B98232 /* MementoUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2A9A4261267CDAF800B98232 /* Memento */ = {
 			isa = PBXGroup;
 			children = (
+				2A9A429B267FACE900B98232 /* Memento.entitlements */,
+				2A9A428F267D38F500B98232 /* RootView.swift */,
+				2A9A4291267D395F00B98232 /* AddNewItemView.swift */,
+				2A9A4293267D397F00B98232 /* AboutAppView.swift */,
+				2A9A4297267FA64500B98232 /* RegisterView.swift */,
+				2A9A4299267FA8FB00B98232 /* Views */,
 				2A9A4262267CDAF800B98232 /* MementoApp.swift */,
-				2A9A4264267CDAF800B98232 /* ContentView.swift */,
 				2A9A4266267CDAFB00B98232 /* Assets.xcassets */,
 				2A9A426B267CDAFB00B98232 /* Info.plist */,
+				2A49776426860714001477DF /* GoogleService-Info.plist */,
 				2A9A4268267CDAFB00B98232 /* Preview Content */,
+				2A49775F26856EAE001477DF /* AgendaView.swift */,
+				2A90C781268BA2AF00B0AC2A /* AgendaRow.swift */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -112,22 +119,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2A9A4273267CDAFC00B98232 /* MementoTests */ = {
+		2A9A4299267FA8FB00B98232 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2A9A4274267CDAFC00B98232 /* MementoTests.swift */,
-				2A9A4276267CDAFC00B98232 /* Info.plist */,
 			);
-			path = MementoTests;
-			sourceTree = "<group>";
-		};
-		2A9A427E267CDAFC00B98232 /* MementoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2A9A427F267CDAFC00B98232 /* MementoUITests.swift */,
-				2A9A4281267CDAFC00B98232 /* Info.plist */,
-			);
-			path = MementoUITests;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +142,11 @@
 			dependencies = (
 			);
 			name = Memento;
+			packageProductDependencies = (
+				2A49776226860475001477DF /* FirebaseAuth */,
+			);
 			productName = Memento;
-			productReference = 2A9A425F267CDAF800B98232 /* Memento.app */;
+			productReference = 2A9A429A267FACC800B98232 /* Memento.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2A9A426F267CDAFC00B98232 /* MementoTests */ = {
@@ -165,7 +164,7 @@
 			);
 			name = MementoTests;
 			productName = MementoTests;
-			productReference = 2A9A4270267CDAFC00B98232 /* MementoTests.xctest */;
+			productReference = 2A49775D2684CBB9001477DF /* MementoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2A9A427A267CDAFC00B98232 /* MementoUITests */ = {
@@ -183,7 +182,7 @@
 			);
 			name = MementoUITests;
 			productName = MementoUITests;
-			productReference = 2A9A427B267CDAFC00B98232 /* MementoUITests.xctest */;
+			productReference = 2A49775E2684CBB9001477DF /* MementoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +216,10 @@
 				Base,
 			);
 			mainGroup = 2A9A4256267CDAF700B98232;
-			productRefGroup = 2A9A4260267CDAF800B98232 /* Products */;
+			packageReferences = (
+				2A49776126860475001477DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 2A9A4256267CDAF700B98232;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -235,6 +237,7 @@
 			files = (
 				2A9A426A267CDAFB00B98232 /* Preview Assets.xcassets in Resources */,
 				2A9A4267267CDAFB00B98232 /* Assets.xcassets in Resources */,
+				2A49776526860714001477DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9A4265267CDAF800B98232 /* ContentView.swift in Sources */,
+				2A9A4298267FA64500B98232 /* RegisterView.swift in Sources */,
+				2A9A4294267D397F00B98232 /* AboutAppView.swift in Sources */,
 				2A9A4263267CDAF800B98232 /* MementoApp.swift in Sources */,
+				2A49776026856EAE001477DF /* AgendaView.swift in Sources */,
+				2A9A4292267D395F00B98232 /* AddNewItemView.swift in Sources */,
+				2A90C782268BA2AF00B0AC2A /* AgendaRow.swift in Sources */,
+				2A9A4290267D38F500B98232 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9A4275267CDAFC00B98232 /* MementoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9A4280267CDAFC00B98232 /* MementoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +423,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Memento/Memento.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memento/Preview Content\"";
 				DEVELOPMENT_TEAM = 3EKVPWP7ND;
@@ -429,6 +437,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.filipzeman.Memento;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +448,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Memento/Memento.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memento/Preview Content\"";
 				DEVELOPMENT_TEAM = 3EKVPWP7ND;
@@ -451,6 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.filipzeman.Memento;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -580,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A49776126860475001477DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A49776226860475001477DF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A49776126860475001477DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A9A4257267CDAF700B98232 /* Project object */;
 }
