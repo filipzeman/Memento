@@ -14,7 +14,7 @@ struct AgendaView: View {
                         .frame(width: 120, height: 120)
                         .clipShape(Circle())
                 }
-                .frame(height: UIScreen.main.bounds.height/2)
+                .frame(height: UIScreen.main.bounds.height*0.4)
                 .background(Color.green)
                 
                 ZStack {
@@ -43,9 +43,10 @@ struct AgendaView: View {
                         .padding(.bottom, 30)
                     }
                 }
-                .frame(height: UIScreen.main.bounds.height/2)
+                .frame(height: UIScreen.main.bounds.height*0.6)
                 Spacer()
             }
+            .ignoresSafeArea()
         }
     }
 }
