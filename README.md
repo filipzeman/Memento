@@ -8,7 +8,10 @@ Personal iOS app (swiftui) allowing to manage namedays &amp; birthdays agenda, a
 - add option to edit already added event (title, date)
 - add option to remove nameday / birthday (probably swipe)
 - add option to export all your events to .json, .xml
-- add profile view | modal
+- add settings view | modal (set notifications (reminders, ..), profile image, export)
 - add option to logout
+- add basic notifications for events
 - add animations / shadows / transitions between layouts, field updates ...
 - add application icon
+- add api request to get list of all names (in future for more countries)
+- add option to search for names in contacts - check against name list for country
