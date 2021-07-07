@@ -1,8 +1,11 @@
 import SwiftUI
 
 struct AgendaView: View {
+    
     var body: some View {
-        NavigationView {
+//        var  agendaEvents = DataHelper.getAgendaEvents()
+        
+        return NavigationView {
             VStack {
                 ZStack {
                     Image("root_mountain")
@@ -23,6 +26,7 @@ struct AgendaView: View {
                             ForEach(eventsData, id: \.id) { event in
                                 EventRow(event: event)
                             }
+//                            .onDelete(perform: deleteEvent(id))
                         }
                     }.padding(.bottom, 16)
                     VStack {
@@ -48,6 +52,9 @@ struct AgendaView: View {
             }
             .ignoresSafeArea()
         }
+//        func deleteEvent(eventsData: []) -> Array {
+//            return eventsData[2].remove
+//        }
     }
 }
 
