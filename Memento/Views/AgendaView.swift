@@ -1,11 +1,10 @@
 import SwiftUI
 
 struct AgendaView: View {
+    @State private var showSheet = false
+    //        var  agendaEvents = DataHelper.getAgendaEvents()
     
     var body: some View {
-//        var  agendaEvents = DataHelper.getAgendaEvents()
-        
-        return NavigationView {
             VStack {
                 ZStack {
                     Image("root_mountain")
@@ -33,28 +32,29 @@ struct AgendaView: View {
                         Spacer()
                         HStack {
                             Spacer()
-                            NavigationLink(destination: AddNewNameView()) {
+                            Button(action: {}) {
                                 Image(systemName: "plus")
                                     .font(.largeTitle)
                                     .frame(width: 70, height: 70)
                                     .background(Color("Primary"))
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                                     .foregroundColor(.white)
+                                    .onTapGesture {
+                                        showSheet = true
+                                    }
                             }
-                            .padding(.bottom, 40)
                         }
                         .padding(.horizontal, 25)
-                        .padding(.bottom, 30)
+                        .padding(.vertical, 30)
                     }
                 }
                 .frame(height: UIScreen.main.bounds.height*0.6)
                 Spacer()
             }
             .ignoresSafeArea()
-        }
-//        func deleteEvent(eventsData: []) -> Array {
-//            return eventsData[2].remove
-//        }
+            .sheet(isPresented: $showSheet, content: {
+                AddNewItemView()
+            })
     }
 }
 

@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct AddNewNameView: View {
+struct AddNewItemView: View {
     var body: some View {
         Text("Add new name or birthday")
     }
 }
 
-struct AddNewNameView_Previews: PreviewProvider {
+struct AddNewItemView_Previews: PreviewProvider {
     static var previews: some View {
-        AddNewNameView()
+        AddNewItemView()
     }
 }
