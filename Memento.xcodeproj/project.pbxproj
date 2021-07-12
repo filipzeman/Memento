@@ -20,6 +20,7 @@
 		2A9A426A267CDAFB00B98232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9A4269267CDAFB00B98232 /* Preview Assets.xcassets */; };
 		2A9A4290267D38F500B98232 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A428F267D38F500B98232 /* RootView.swift */; };
 		2A9A4292267D395F00B98232 /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A4291267D395F00B98232 /* AddNewItemView.swift */; };
+		2AE7C31C269BFBDD0016262E /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2AE7C31B269BFBDD0016262E /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2A9A4291267D395F00B98232 /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
 		2A9A429A267FACC800B98232 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9A429B267FACE900B98232 /* Memento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memento.entitlements; sourceTree = "<group>"; };
+		2AE7C31B269BFBDD0016262E /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		2A9A4261267CDAF800B98232 /* Memento */ = {
 			isa = PBXGroup;
 			children = (
+				2AE7C31A269BFB880016262E /* Data */,
 				2A3B5137268F240A00232FB0 /* Helpers */,
 				2A1F48C3268CBB22005CC724 /* Views */,
 				2A1F48C1268CBAD2005CC724 /* Components */,
@@ -154,6 +157,14 @@
 				2A9A4269267CDAFB00B98232 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AE7C31A269BFB880016262E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7C31B269BFBDD0016262E /* Data.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			files = (
 				2A9A426A267CDAFB00B98232 /* Preview Assets.xcassets in Resources */,
 				2A9A4267267CDAFB00B98232 /* Assets.xcassets in Resources */,
+				2AE7C31C269BFBDD0016262E /* Data.json in Resources */,
 				2A49776526860714001477DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
