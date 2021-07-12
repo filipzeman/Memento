@@ -2,7 +2,6 @@ import SwiftUI
 
 struct AgendaView: View {
     @State private var showSheet = false
-    //        var  agendaEvents = DataHelper.getAgendaEvents()
     
     var body: some View {
             VStack {
@@ -25,7 +24,6 @@ struct AgendaView: View {
                             ForEach(eventsData, id: \.id) { event in
                                 EventRow(event: event)
                             }
-//                            .onDelete(perform: deleteEvent(id))
                         }
                     }.padding(.bottom, 16)
                     VStack {
